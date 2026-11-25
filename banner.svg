@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="210" viewBox="0 0 1000 210" role="img" aria-label="Xillo23 — Indie developer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="60%" stop-color="#141923"/>
+      <stop offset="100%" stop-color="#1b141a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff5e5b"/>
+      <stop offset="55%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff5e5b" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="1" y="1" width="998" height="208" rx="16" fill="url(#bg)" stroke="#30363d" stroke-width="1.5"/>
+  <rect x="1" y="1" width="998" height="4" rx="2" fill="url(#accent)"/>
+
+  <!-- Subtle right-side geometric accents -->
+  <circle cx="885" cy="105" r="115" fill="url(#glow)"/>
+  <g stroke="#ffffff" stroke-opacity="0.06" stroke-width="1.2" fill="none">
+    <circle cx="885" cy="105" r="54"/>
+    <circle cx="885" cy="105" r="88"/>
+    <line x1="760" y1="105" x2="970" y2="105"/>
+    <line x1="885" y1="20" x2="885" y2="190"/>
+  </g>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#8b949e" opacity="0.85">
+    <text x="748" y="68">01  native quality</text>
+    <text x="748" y="92">02  zero bloat</text>
+    <text x="748" y="116">03  open source</text>
+    <text x="748" y="140">04  built for fun</text>
+  </g>
+
+  <!-- X monogram -->
+  <rect x="44" y="53" width="96" height="96" rx="22" fill="#161b22" stroke="url(#accent)" stroke-width="2.5"/>
+  <path d="M72 79 L112 123 M112 79 L72 123" stroke="url(#accent)" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- Main text -->
+  <text x="168" y="96" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="42" font-weight="800" fill="#f0f6fc" letter-spacing="-0.5">Xillo23</text>
+  <text x="168" y="128" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="400" fill="#c9d1d9">Indie developer · Small, useful apps &amp; mods that fix everyday annoyances</text>
+
+  <!-- Pills -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="600">
+    <rect x="168" y="146" width="136" height="26" rx="13" fill="#ff5e5b" fill-opacity="0.16" stroke="#ff5e5b" stroke-opacity="0.45"/>
+    <text x="236" y="163" text-anchor="middle" fill="#ff9b99">Free &amp; Open Source</text>
+
+    <rect x="314" y="146" width="76" height="26" rx="13" fill="#30363d" fill-opacity="0.55" stroke="#484f58"/>
+    <text x="352" y="163" text-anchor="middle" fill="#c9d1d9">No Ads</text>
+
+    <rect x="400" y="146" width="102" height="26" rx="13" fill="#30363d" fill-opacity="0.55" stroke="#484f58"/>
+    <text x="451" y="163" text-anchor="middle" fill="#c9d1d9">No Tracking</text>
+  </g>
+</svg>
